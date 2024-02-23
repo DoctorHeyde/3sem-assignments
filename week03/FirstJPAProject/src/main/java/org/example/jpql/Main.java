@@ -16,8 +16,8 @@ public class Main {
 
 
 
-        em.createNamedQuery = ("Employee.findAll", Employee.class).getResultList().forEach(System.out.println());
-        System.out.println("-----------------------------");
+    /*    em.createNamedQuery = ("Employee.findAll", Employee.class).getResultList().forEach(System.out.println());
+        System.out.println("-----------------------------");*/
 
         em.close();
     }
